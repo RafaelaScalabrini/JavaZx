@@ -1,2 +1,2 @@
-# InterviewZen
+# ITZ
 Automação de testes
