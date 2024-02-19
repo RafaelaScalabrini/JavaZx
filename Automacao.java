@@ -11,7 +11,7 @@ public class Automacao {
 
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\Rafaela\\eclipse-workspace\\Zen\\src\\drive\\chromedriver.exe");
+				"/src/main/resources/drivers/chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
